@@ -1,0 +1,2763 @@
+[
+  {
+    "category": {
+      "ru": "Завтраки",
+      "en": "Breakfasts",
+      "zh": "早餐",
+      "hi": "नाश्ता",
+      "tr": "Kahvaltılar",
+      "kk": "Таңғы ас",
+      "ar": "الإفطار"
+    },
+    "dishes": [
+      {
+        "price": 3400,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/v1792799458/blinchiki.jpg",
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Блинчики", "description": "Нежные блинчики с творожным кремом и фруктами." },
+          "en": { "name": "Blinchiki", "description": "Soft pancakes with curd cream and fruits." },
+          "zh": { "name": "薄饼", "description": "奶渣奶油水果煎饼" },
+          "hi": { "name": "ब्लिनचिकी (पैनकेक्स)", "description": "पनीर क्रीम और फलों के साथ नरम पैनकेक।" },
+          "tr": { "name": "Blinchiki (Krepler)", "description": "Lor kremalı ve meyveli yumuşak krep." },
+          "kk": { "name": "Құймақтар", "description": "Түзбелі крем және жемістер қосылған нәзік құймақтар." },
+          "ar": { "name": "بلينتشيكي (كريب روسي)", "description": "فطائر رقيقة طرية بكريمة الجبن القريش والفواكه." }
+        }
+      },
+      {
+        "price": 3400,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/f_auto,q_auto/syrniki",
+        "allergens": ["milk", "eggs", "gluten"],
+        "translations": {
+          "ru": { "name": "Сырники", "description": "Нежные творожные сырники с ягодным соусом." },
+          "en": { "name": "Syrnyky", "description": "Soft cottage cheese pancakes with berry sauce." },
+          "zh": { "name": "俄式干酪饼", "description": "配浆果酱的松软干酪饼" },
+          "hi": { "name": "सिरनिकी", "description": "बेरी सॉस के साथ कॉटेज पनीर पैनकेक।" },
+          "tr": { "name": "Sırniki", "description": "Meyve soslu yumuşak lor peynirli pankekler." },
+          "kk": { "name": "Сырниктер", "description": "Жидек соусы қосылған нәзік зүзбе сырниктері." },
+          "ar": { "name": "سيرنيكي (فطائر الجبن القريش)", "description": "فطائر الجبن القريش الطرية مع صلصة التوت." }
+        }
+      },
+      {
+        "price": 3100,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/v1792799549/omlette.jpg",
+        "allergens": ["eggs", "gluten", "milk"],
+        "addons": [
+          {
+            "id": "cheese",
+            "price": 800,
+            "allergens": ["milk"],
+            "translations": {
+              "ru": { "name": "Сыр" },
+              "en": { "name": "Cheese" },
+              "zh": { "name": "奶酪" },
+              "hi": { "name": "चीज़" },
+              "tr": { "name": "Peynir" },
+              "kk": { "name": "Ірімшік" },
+              "ar": { "name": "جبنة" }
+            }
+          },
+          {
+            "id": "mushrooms",
+            "price": 1600,
+            "translations": {
+              "ru": { "name": "Грибы" },
+              "en": { "name": "Mushrooms" },
+              "zh": { "name": "蘑菇" },
+              "hi": { "name": "मशरूम" },
+              "tr": { "name": "Mantar" },
+              "kk": { "name": "Саңырауқұлақ" },
+              "ar": { "name": "فطر" }
+            }
+          },
+          {
+            "id": "beef-bacon",
+            "price": 1600,
+            "translations": {
+              "ru": { "name": "Говяжий бекон" },
+              "en": { "name": "Beef bacon" },
+              "zh": { "name": "牛肉培根" },
+              "hi": { "name": "बीफ़ बेकन" },
+              "tr": { "name": "Dana bacon" },
+              "kk": { "name": "Сиыр еті беконы" },
+              "ar": { "name": "بيكون لحم بقري" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Омлет по-французски", "description": "Воздушный омлет с салатом и с чиабаттой." },
+          "en": { "name": "French style omelette", "description": "Fluffy French omelet with salad and ciabatta." },
+          "zh": { "name": "法式煎蛋卷", "description": "蓬松法式煎蛋卷，配沙拉和恰巴提面包" },
+          "hi": { "name": "फ्रेंच स्टाइल ऑमलेट", "description": "सलाद और चियाबाटा के साथ हल्का फ्रेंच ऑमलेट।" },
+          "tr": { "name": "Fransız Usulü Omlet", "description": "Salata ve çiabatta ile servis edilen hafif Fransız omleti." },
+          "kk": { "name": "Французша омлет", "description": "Салат және чиабаттамен берілетін үлпілдек омлет." },
+          "ar": { "name": "عجّة على الطريقة الفرنسية", "description": "عجّة فرنسية هشّة مع سلطة وخبز تشاباتا." }
+        }
+      },
+      {
+        "price": 5300,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/v1792799548/fried_eggs.jpg",
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Яичница с говяжьим беконом", "description": "Завтрак с яйцами, беконом и свежим салатом." },
+          "en": { "name": "Sunny-side up eggs with beef bacon", "description": "Breakfast with eggs, beef bacon and fresh salad." },
+          "zh": { "name": "牛肉培根煎蛋", "description": "配鸡蛋、牛肉培根和新鲜沙拉的早餐" },
+          "hi": { "name": "बीफ बेकन के साथ सनी-साइड अप अंडे", "description": "अंडे, बीफ बेकन और ताजे सलाद के साथ नाश्ता।" },
+          "tr": { "name": "Dana Baconlı Göz Yumurta", "description": "Yumurta, dana bacon ve taze salatalı kahvaltı." },
+          "kk": { "name": "Сиыр еті беконы қосылған қуырған жұмыртқа", "description": "Жұмыртқа, бекон және балғын салат қосылған таңғы ас." },
+          "ar": { "name": "بيض عيون مع بيكون لحم بقري", "description": "فطور بالبيض وبيكون لحم البقر وسلطة طازجة." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Супы",
+      "en": "Soups",
+      "zh": "汤类",
+      "hi": "सूप",
+      "tr": "Çorbalar",
+      "kk": "Сорпалар",
+      "ar": "الشوربات"
+    },
+    "dishes": [
+      {
+        "price": 2800,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/v1792799549/tarhana.jpg",
+        "allergens": ["gluten", "milk", "eggs"],
+        "translations": {
+          "ru": { "name": "Суп Тархана", "description": "Густой ароматный суп на основе тархана с мягкой сливочной текстурой, подаётся с мятой, лимоном и хрустящими крутонами." },
+          "en": { "name": "Tarhana soup", "description": "Thick and aromatic tarhana soup with a creamy texture, served with mint, lemon and crispy herb croutons." },
+          "zh": { "name": "塔哈纳汤", "description": "浓郁香浓的塔哈纳汤，口感柔滑，配薄荷、柠檬和香脆面包干" },
+          "hi": { "name": "तरहाना सूप", "description": "मलाईदार बनावट वाला गाढ़ा और सुगंधित तरहाना सूप, पुदीना, नींबू और कुरकुरे क्रूटॉन के साथ परोसा जाता है।" },
+          "tr": { "name": "Tarhana Çorbası", "description": "Kremamsı kıvamda, nane, limon ve kıtır ekmek ile servis edilen yoğun aromatik çorba." },
+          "kk": { "name": "Тархана сорпасы", "description": "Жұмсақ кілегейлі текстурасы бар, жалбыз, лимон жәнеกรกร กรты кептірілген нанмен берілетін тархана негізіндегі қою хош иісті сорпа." },
+          "ar": { "name": "شوربة ترهانة", "description": "شوربة ترهانة كثيفة وعطرة بقوام كريمي، تُقدَّم مع النعناع والليمون وقطع الخبز المحمصة بالأعشاب." }
+        }
+      },
+      {
+        "price": 3300,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/v1792799549/manpar.jpg",
+        "allergens": ["gluten", "milk", "eggs"],
+        "translations": {
+          "ru": { "name": "Суп Манпар", "description": "Традиционный насыщенный суп манпар, подаётся горячим, со свежей петрушкой. Сметана и ароматные гренки подаются отдельно." },
+          "en": { "name": "Manpar soup", "description": "Traditional rich manpar soup served hot with fresh parsley. Sour cream and herb croutons are served on the side." },
+          "zh": { "name": "曼帕尔汤", "description": "传统浓郁曼帕尔汤，热气腾腾，配鲜香菜。酸奶油和香脆面包干单独盛放" },
+          "hi": { "name": "मानपार सूप", "description": "ताजी अजमोद के साथ गरमागरम परोसा जाने वाला पारंपरिक मानपार सूप। खट्टा मक्खन और क्रूटॉन अलग से परोसे जाते हैं।" },
+          "tr": { "name": "Manpar Çorbası", "description": "Taze maydanoz ile sıcak servis edilen geleneksel zengin Manpar çorbası. Ekşi krema ve krutonlar yanında sunulur." },
+          "kk": { "name": "Манпар сорпасы", "description": "Дәстүрлі бай манпар сорпасы, балғын ақжелкенмен ыстықтай беріледі. Қаймақ пен хош иісті гренкилер бөлек ұсынылады." },
+          "ar": { "name": "شوربة منبار", "description": "شوربة منبار التقليدية الغنية تُقدَّم ساخنة مع البقدونس الطازج. تُقدَّم القشدة الحامضة وقطع الخبز المحمصة بالأعشاب منفصلة." }
+        }
+      },
+      {
+        "price": 2800,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/v1792799549/lentilsoup.jpg",
+        "allergens": ["gluten", "eggs", "celery"],
+        "translations": {
+          "ru": { "name": "Суп Чечевичный", "description": "Нежный чечевичный суп с насыщенным вкусом, подаётся с лимоном и хрустящими гренками." },
+          "en": { "name": "Lentil soup", "description": "Smooth lentil soup with a rich flavor, served with lemon and crispy croutons." },
+          "zh": { "name": "小扁豆汤", "description": "细腻浓郁的小扁豆汤，配柠檬和香脆面包干" },
+          "hi": { "name": "मसूर दाल का सूप", "description": "समृद्ध स्वाद वाला मसूर सूप, नींबू और कुरकुरे क्रूटॉन के साथ परोसा जाता है।" },
+          "tr": { "name": "Mercimek Çorbası", "description": "Zengin aromalı pürüzsüz mercimek çorbası, limon ve kıtır ekmekle servis edilir." },
+          "kk": { "name": "Жасымық сорпасы", "description": "Қанық дайі бар нәзік жасымық сорпасы, лимонмен және қытырлақ гренкилермен беріледі." },
+          "ar": { "name": "شوربة عدس", "description": "شوربة عدس ناعمة بنكهة غنية، تُقدَّم مع الليمون وقطع الخبز المحمصة المقرمشة." }
+        }
+      },
+      {
+        "price": 2800,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/v1792799549/borch.jpg",
+        "allergens": ["gluten", "milk", "eggs"],
+        "translations": {
+          "ru": { "name": "Борщ", "description": "Классический насыщенный борщ, подаётся горячим со сметаной, свежей зеленью и гренками." },
+          "en": { "name": "Borsch", "description": "Classic rich borsch served hot with sour cream, fresh herbs and croutons." },
+          "zh": { "name": "红菜汤", "description": "经典浓郁红菜汤，热腾腾地配上酸奶油、新鲜香菜和面包干" },
+          "hi": { "name": "बोर्श (चुकंदर सूप)", "description": "खट्टा मक्खन, ताजी जड़ी-बूटियों और क्रूटॉन के साथ गरमागरम परोसा जाने वाला क्लासिक बोर्श।" },
+          "tr": { "name": "Borç Çorbası", "description": "Ekşi krema, taze yeşillikler ve kruton ile sıcak servis edilen klasik borç çorbası." },
+          "kk": { "name": "Борщ", "description": "Классикалық қанық борщ, қаймақпен, балғын шөптермен және гренкилермен ыстықтай беріледі." },
+          "ar": { "name": "بورشت (شوربة الشمندر)", "description": "بورشت كلاسيكي غني يُقدَّم ساخنًا مع القشدة الحامضة والأعشاب الطازجة وقطع الخبز المحمصة." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Салаты",
+      "en": "Salads",
+      "zh": "沙拉",
+      "hi": "सलाद",
+      "tr": "Salatalar",
+      "kk": "Салаттар",
+      "ar": "السلطات"
+    },
+    "dishes": [
+      {
+        "price": 4600,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/v1792799549/saladcaesar.jpg",
+        "allergens": ["gluten", "eggs", "milk"],
+        "addons": [
+          {
+            "id": "chicken",
+            "price": 1100,
+            "translations": {
+              "ru": { "name": "Курица" },
+              "en": { "name": "Chicken" },
+              "zh": { "name": "鸡肉" },
+              "hi": { "name": "चिकन" },
+              "tr": { "name": "Tavuk" },
+              "kk": { "name": "Тауық еті" },
+              "ar": { "name": "دجاج" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Салат Цезарь", "description": "Классический салат с пармезаном и соусом цезарь." },
+          "en": { "name": "Caesar salad", "description": "Classic Caesar salad with parmesan and Caesar sauce." },
+          "zh": { "name": "凯撒沙拉", "description": "配帕玛森芝士和凯撒酱的经典凯撒沙拉" },
+          "hi": { "name": "सीज़र सलाद", "description": "परमेसन और सीज़र सॉस के साथ क्लासिक सीज़र सलाद।" },
+          "tr": { "name": "Sezar Salata", "description": "Parmesan ve Sezar sosu ile klasik Sezar salatası." },
+          "kk": { "name": "Цезарь салаты", "description": "Пармезан және цезарь соусы қосылған классикалық салат." },
+          "ar": { "name": "سلطة سيزر", "description": "سلطة سيزر كلاسيكية مع البارميزان وصلصة سيزر." }
+        }
+      },
+      {
+        "price": 4300,
+        "image_url": "https://res.cloudinary.com/wnaqtu7c/image/upload/v1792799549/olivie.jpg",
+        "allergens": ["eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Салат Оливье", "description": "Классический салат с йогуртовым соусом и яйцом пашот." },
+          "en": { "name": "Olivier salad", "description": "Classic salad with yogurt sauce and poached egg." },
+          "zh": { "name": "奥利维耶沙拉", "description": "配酸奶酱和水煮蛋的经典沙拉" },
+          "hi": { "name": "ओलिवियर सलाद", "description": "दही सॉस और पोच्ड अंडे के साथ क्लासिक सलाद।" },
+          "tr": { "name": "Olivier Salatası", "description": "Yoğurt sosu ve poşe yumurta ile klasik salata." },
+          "kk": { "name": "Оливье салаты", "description": "Йогурт соусы мен пашот жұмыртқасы қосылған классикалық салат." },
+          "ar": { "name": "سلطة أوليفييه", "description": "سلطة كلاسيكية مع صلصة الزبادي وبيضة بوشيه." }
+        }
+      },
+      {
+        "price": 6400,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Веганский боул", "description": "Лёгкий боул с фалафелем и овощами." },
+          "en": { "name": "Vegan bowl", "description": "Light vegetarian bowl with falafel and vegetables." },
+          "zh": { "name": "纯素碗", "description": "配炸鹰嘴豆丸子和蔬菜的轻食碗" },
+          "hi": { "name": "वीनग बाउल", "description": "फलाफेल और सब्जियों के साथ हल्का शाकाहारी बाउल।" },
+          "tr": { "name": "Vegan Bowl", "description": "Falafel ve sebzeli hafif vejetaryen kase." },
+          "kk": { "name": "Вегандық боул", "description": "Фалафель мен көкөністер қосылған жеңіл боул." },
+          "ar": { "name": "وعاء نباتي (فيغان)", "description": "وعاء نباتي خفيف بالفلافل والخضار." }
+        }
+      },
+      {
+        "price": 3400,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Зеленый салат с сыром", "description": "Свежий хрустящий салат с лёгкой лимонной заправкой, дополненный нежной моцареллой и ароматными гренками." },
+          "en": { "name": "Garden salad with cheese", "description": "Fresh and crunchy salad with a light lemon dressing, topped with delicate mozzarella and herb croutons." },
+          "zh": { "name": "奶酪绿沙拉", "description": "清爽松脆沙拉配轻盈柠檬汁、柔和马苏里拉奶酪和香草面包干" },
+          "hi": { "name": "पनीर के साथ गार्डन सलाद", "description": "हल्की नींबू ड्रेसिंग, मोज़ारेला और जड़ी-बूटियों वाले क्रूटॉन के साथ ताज़ा सलाद।" },
+          "tr": { "name": "Peynirli Yeşil Salata", "description": "Limon soslu, taze mozzarella ve otlu krutonlar ile lezzetlendirilmiş taze salata." },
+          "kk": { "name": "Сыр қосылған жасыл салат", "description": "Жеңіл лимон соусы, нәзік моцарелла және хош иісті гренкилер қосылған балғын қытырлақ салат." },
+          "ar": { "name": "سلطة خضراء بالجبن", "description": "سلطة طازجة ومقرمشة مع صلصة ليمون خفيفة، تعلوها موتزاريلا طرية وقطع الخبز المحمصة بالأعشاب." }
+        }
+      },
+      {
+        "price": 4700,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk", "fish"],
+        "translations": {
+          "ru": { "name": "Зеленый салат с тунцом", "description": "Освежающий салат с тунцом и цитрусовой заправкой, сбалансированный по вкусу и текстуре." },
+          "en": { "name": "Garden salad with tuna", "description": "Refreshing tuna salad with a citrus dressing, balanced in flavor and texture." },
+          "zh": { "name": "金枪鱼绿沙拉", "description": "清爽金枪鱼沙拉配柑橘汁，口感丰富平衡" },
+          "hi": { "name": "ट्यूना के साथ गार्डन सलाद", "description": "साइट्रस ड्रेसिंग के साथ ताज़ा ट्यूना सलाद।" },
+          "tr": { "name": "Ton Balıklı Yeşil Salata", "description": "Narenciye soslu, lezzet ve doku bakımından dengeli ferahlatıcı ton balıklı salata." },
+          "kk": { "name": "Тунец қосылған жасыл салат", "description": "Тунец пен цитрус соусы қосылған, дәмі мен текстурасы теңгерілген сергітетін салат." },
+          "ar": { "name": "سلطة خضراء بالتونة", "description": "سلطة تونة منعشة مع صلصة حمضيات، متوازنة في النكهة والقوام." }
+        }
+      },
+      {
+        "price": 2500,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Чобан салат", "description": "Лёгкий овощной салат с освежающей лимонной заправкой." },
+          "en": { "name": "Choban salad", "description": "Light vegetable salad with a refreshing lemon dressing." },
+          "zh": { "name": "牧民沙拉", "description": "配清爽柠檬汁的轻盈蔬菜沙拉" },
+          "hi": { "name": "चोबान सलाद", "description": "ताजा नींबू ड्रेसिंग के साथ हल्का सब्जी सलाद।" },
+          "tr": { "name": "Çoban Salatası", "description": "Ferahlatıcı limon soslu hafif sebze salatası." },
+          "kk": { "name": "Шопан салаты", "description": "Сергітетін лимон соусы қосылған жеңіл көкөніс салаты." },
+          "ar": { "name": "سلطة الراعي (تشوبان)", "description": "سلطة خضار خفيفة مع صلصة ليمون منعشة." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Закуски и сэндвичи",
+      "en": "Snacks & Sandwiches",
+      "zh": "小吃与三明治",
+      "hi": "स्नैक्स और सैंडविच",
+      "tr": "Atıştırmalıklar ve Sandviçler",
+      "kk": "Борбасарлар мен сэндвичтер",
+      "ar": "وجبات خفيفة وساندويتشات"
+    },
+    "dishes": [
+      {
+        "price": 2700,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk", "dioxide and sulphites"],
+        "translations": {
+          "ru": { "name": "Сэндвич с сыром и копченой индейкой", "description": "Горячий тост с расплавленным сыром и копчёной индейкой, поджаренный до золотистой корочки." },
+          "en": { "name": "Grilled cheese and smoked turkey sandwich", "description": "Hot toast with melted cheese and smoked turkey, toasted to a golden crust." },
+          "zh": { "name": "奶酪熏火鸡三明治", "description": "融化奶酪与熏火鸡肉热吐司，烤至金黄酥脆" },
+          "hi": { "name": "चीज़ और स्मोक्ड टर्की सैंडविच", "description": "पिघले हुए चीज़ और स्मोक्ड टर्की के साथ सुनहरा सेका हुआ गर्म टोस्ट।" },
+          "tr": { "name": "Peynirli ve Füme Hindili Sandviç", "description": "Erimiş peynir ve füme hindi ile altın sarısı kızarmış sıcak tost." },
+          "kk": { "name": "Сыр мен ысталған күркетауық қосылған сэндвич", "description": "Ерітілген сыр мен ысталған күркетауық қосылған, алтын түске дейін қуырылған ыстық тост." },
+          "ar": { "name": "ساندويتش جبنة مشوية وديك رومي مدخّن", "description": "توست ساخن بالجبن الذائب والديك الرومي المدخّن، محمّص حتى يصبح ذهبي اللون." }
+        }
+      },
+      {
+        "price": 2000,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Сэндвич с запеченным сыром", "description": "Классический горячий тост с расплавленным сыром." },
+          "en": { "name": "Grilled cheese sandwich", "description": "Classic hot toast with melted cheese." },
+          "zh": { "name": "烤奶酪三明治", "description": "融化奶酪经典热吐司" },
+          "hi": { "name": "ग्रिल्ड चीज़ सैंडविच", "description": "पिघले हुए चीज़ के साथ क्लासिक गर्म टोस्ट।" },
+          "tr": { "name": "Izgara Peynirli Sandviç", "description": "Erimiş peynirli klasik sıcak tost." },
+          "kk": { "name": "Пісірілген сыр қосылған сэндвич", "description": "Ерітілген сыр қосылған классикалық ыстық тост." },
+          "ar": { "name": "ساندويتش جبنة مشوية", "description": "توست ساخن كلاسيكي بالجبن الذائب." }
+        }
+      },
+      {
+        "price": 2700,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Сэндвич с запеченным сыром и пеперони", "description": "Сытный горячий сэндвич с пикантным пепперони и сыром." },
+          "en": { "name": "Grilled cheese and pepperoni sandwich", "description": "Hearty hot sandwich with spicy pepperoni and melted cheese." },
+          "zh": { "name": "烤奶酪辣香肠三明治", "description": "配辣香肠和融化奶酪的丰盛热三明治" },
+          "hi": { "name": "ग्रिल्ड चीज़ और पेपरोनी सैंडविच", "description": "मसालेदार पेपरोनी और पिघले हुए चीज़ के साथ भरपूर गर्म सैंडविच।" },
+          "tr": { "name": "Peynirli ve Peperonili Sandviç", "description": "Baharatlı peperoni ve erimiş peynirli doyurucu sıcak sandviç." },
+          "kk": { "name": "Пісірілген сыр мен пеперони қосылған сэндвич", "description": "Ащы пепперони мен сыр қосылған тойымды ыстық сэндвич." },
+          "ar": { "name": "ساندويتش جبنة مشوية وببروني", "description": "ساندويتش ساخن مشبع بالببروني الحار والجبن الذائب." }
+        }
+      },
+      {
+        "price": 2300,
+        "image_url": null,
+        "allergens": ["milk", "dioxide and sulphites"],
+        "translations": {
+          "ru": { "name": "Картофель фри с трюфелем и пармезаном", "description": "Картофель с трюфельным ароматом и пармезаном." },
+          "en": { "name": "Truffle and parmesan french fries", "description": "Fries with truffle aroma and parmesan." },
+          "zh": { "name": "松露帕玛森薯条", "description": "带有松露香气和帕玛森芝士的炸薯条" },
+          "hi": { "name": "ट्रफल और परमेसन फ्रेंच फ्राइज", "description": "ट्रफल सुगंध और परमेसन के साथ फ्राइज।" },
+          "tr": { "name": "Trüflü ve Parmesanlı Patates Kızartması", "description": "Trüf aromalı ve parmesanlı patates kızartması." },
+          "kk": { "name": "Трюфель мен пармезан қосылған картоп фри", "description": "Трюфель иісі мен пармезан қосылған картоп." },
+          "ar": { "name": "بطاطس مقلية بالكمأة والبارميزان", "description": "بطاطس مقلية بنكهة الكمأة والبارميزان." }
+        }
+      },
+      {
+        "price": 2000,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Самса с мясом", "description": "Хрустящая самса с сочной мясной начинкой, подаётся со свежим салатом." },
+          "en": { "name": "Meat samsa", "description": "Crispy samsa with juicy meat filling, served with fresh salad." },
+          "zh": { "name": "牛肉烤包子", "description": "香脆肉馅烤包子，配新鲜沙拉" },
+          "hi": { "name": "मीट समसा", "description": "ताजे सलाद के साथ परोसी जाने वाली रसदार मांस से भरी कुरकुरी समसा।" },
+          "tr": { "name": "Etli Samsa", "description": "Taze salata ile servis edilen sulu et dolgulu çıtır samsa." },
+          "kk": { "name": "Ет қосылған самса", "description": "Шырынды ет салмасы бар қытырлақ самса, балғын салатпен беріледі." },
+          "ar": { "name": "سمبوسك باللحم", "description": "سمبوسك مقرمش بحشوة لحم طرية، يُقدَّم مع سلطة طازجة." }
+        }
+      },
+      {
+        "price": 1700,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Самса с курицей", "description": "Горячая самса с нежной куриной начинкой и свежим гарниром." },
+          "en": { "name": "Chicken samsa", "description": "Hot samsa with tender chicken filling, served with fresh garnish." },
+          "zh": { "name": "鸡肉烤包子", "description": "鲜嫩鸡肉馅热烤包子，配新鲜蔬菜" },
+          "hi": { "name": "चिकन समसा", "description": "नरम चिकन भरावन के साथ गर्म समसा।" },
+          "tr": { "name": "Tavuklu Samsa", "description": "Taze garnitür eşliğinde sunulan yumuşak tavuk dolgulu sıcak samsa." },
+          "kk": { "name": "Тауық қосылған самса", "description": "Нәзік тауық салмасы және балғын гарнирі бар ыстық самса." },
+          "ar": { "name": "سمبوسك بالدجاج", "description": "سمبوسك ساخن بحشوة دجاج طرية، يُقدَّم مع تزيين طازج." }
+        }
+      },
+      {
+        "price": 1500,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Самса с сыром", "description": "Ароматная самса с расплавленным сыром и свежими овощами." },
+          "en": { "name": "Cheese samsa", "description": "Flavorful samsa with melted cheese and fresh vegetables." },
+          "zh": { "name": "奶酪烤包子", "description": "香浓融化奶酪烤包子，配新鲜蔬菜" },
+          "hi": { "name": "चीज़ समसा", "description": "पिघले हुए चीज़ और ताज़ी सब्जियों के साथ स्वादिष्ट समसा।" },
+          "tr": { "name": "Peynirli Samsa", "description": "Erimiş peynirli ve taze sebzeli lezzetli samsa." },
+          "kk": { "name": "Сыр қосылған самса", "description": "Ерітілген сыр мен балғын көкөністер қосылған хош иісті самса." },
+          "ar": { "name": "سمبوسك بالجبن", "description": "سمبوسك عطري بالجبن الذائب والخضار الطازجة." }
+        }
+      },
+      {
+        "price": 3300,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk", "mustard"],
+        "translations": {
+          "ru": { "name": "Хот-дог бриошь", "description": "Классический хот-дог с сыром и соусами." },
+          "en": { "name": "Brioche hot dog", "description": "Classic hot dog with cheese and sauces." },
+          "zh": { "name": "布里欧修热狗", "description": "配奶酪和酱料的经典热狗" },
+          "hi": { "name": "ब्रियोश हॉट डॉग", "description": "चीज़ और सॉस के साथ क्लासिक हॉट डॉग।" },
+          "tr": { "name": "Brioş Sosisli Sandviç", "description": "Peynirli ve soslu klasik sosisli sandviç." },
+          "kk": { "name": "Бриошь хот-догы", "description": "Сыр мен соустар қосылған классикалық хот-дог." },
+          "ar": { "name": "هوت دوغ بخبز البريوش", "description": "هوت دوغ كلاسيكي بالجبن والصلصات." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Бургеры и Роллы",
+      "en": "Burgers & Wraps",
+      "zh": "汉堡与卷饼",
+      "hi": "बर्गर और रोल",
+      "tr": "Burgerler ve Dürümler",
+      "kk": "Бургерлер мен роллдар",
+      "ar": "برغر ولفائف"
+    },
+    "dishes": [
+      {
+        "price": 3700,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Бургер с курицей", "description": "Сочный хрустящий куриный бургер с пикантным соусом и свежими овощами." },
+          "en": { "name": "Chicken burger", "description": "Juicy crispy chicken burger with spicy sauce and fresh vegetables." },
+          "zh": { "name": "鸡肉汉堡", "description": "香脆多汁鸡肉汉堡，配辣酱和新鲜蔬菜" },
+          "hi": { "name": "चिकन बर्गर", "description": "मसालेदार सॉस और ताज़ी सब्जियों के साथ रसदार कुरकुरा चिकन बर्गर।" },
+          "tr": { "name": "Tavuklu Burger", "description": "Acı soslu ve taze sebzeli sulu çıtır tavuk burger." },
+          "kk": { "name": "Тауық қосылған бургер", "description": "Ащы соус және балғын көкөністер қосылған шырынды қытырлақ тауық бургері." },
+          "ar": { "name": "برغر الدجاج", "description": "برغر دجاج مقرمش وطري مع صلصة حارة وخضار طازجة." }
+        }
+      },
+      {
+        "price": 4300,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Чизбургер", "description": "Сочный бургер с говяжьей котлетой и расплавленным сыром чеддер, дополненный трюфельным майонезом и карамелизированным луком." },
+          "en": { "name": "Cheeseburger", "description": "Juicy beef burger with melted cheddar cheese, enhanced with truffle mayonnaise and caramelized onions." },
+          "zh": { "name": "芝士汉堡", "description": "鲜嫩牛肉饼配切达奶酪、松露蛋黄酱和焦糖洋葱" },
+          "hi": { "name": "चीज़बर्गर", "description": "पिघले चेद्दार चीज़, ट्रफल मेयोनेज़ और कैरामेलाइज़्ड प्याज के साथ रसदार बीफ बर्गर।" },
+          "tr": { "name": "Cheddar Burger", "description": "Erimiş cheddar peynirli, trüflü mayonez ve karamelize soğanlı sulu dana burger." },
+          "kk": { "name": "Чизбургер", "description": "Сиыр котлетасы, ерітілген чеддер сыры, трюфель майонезі мен карамельденген пиязы бар шырынды бургер." },
+          "ar": { "name": "تشيز برغر", "description": "برغر لحم بقري طري مع جبنة شيدر ذائبة، يُزيّنه مايونيز الكمأة والبصل المكرمل." }
+        }
+      },
+      {
+        "price": 4700,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Бургер с копченым сулугуни", "description": "Сытный бургер с сочной говяжьей котлетой, копчёным сулугуни и насыщенным вкусом." },
+          "en": { "name": "Smoked suluguni burger", "description": "Hearty burger with a juicy beef patty, smoked suluguni cheese and rich flavor." },
+          "zh": { "name": "烟熏苏卢古尼奶酪汉堡", "description": "多汁牛肉饼配烟熏苏卢古尼奶酪的丰盛汉堡" },
+          "hi": { "name": "स्मोक्ड सुलुगुनी बर्गर", "description": "रसदार बीफ पैटी और स्मोक्ड सुलुगुनी चीज़ के साथ भरपूर बर्गर।" },
+          "tr": { "name": "Füme Suluguni Peynirli Burger", "description": "Sulu dana köfteli ve füme suluguni peynirli doyurucu burger." },
+          "kk": { "name": "Ысталған сулугуни қосылған бургер", "description": "Шырынды сиыр котлетасы, ысталған сулугуни сыры бар қанық дәмді тойымды бургер." },
+          "ar": { "name": "برغر بجبنة سولوغوني المدخّنة", "description": "برغر مشبع بقرص لحم بقري طري وجبنة سولوغوني مدخّنة ونكهة غنية." }
+        }
+      },
+      {
+        "price": 4100,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Острый бургер", "description": "Пикантный бургер с соусом тако и халапеньо." },
+          "en": { "name": "Spicy burger", "description": "Spicy burger with taco sauce and jalapeños." },
+          "zh": { "name": "辣味汉堡", "description": "配塔可酱和墨西哥辣椒的辣味汉堡" },
+          "hi": { "name": "स्पाइसी बर्गर", "description": "टैको सॉस और जलपेनोस के साथ मसालेदार बर्गर।" },
+          "tr": { "name": "Acılı Burger", "description": "Tako soslu ve jalapeño biberli acılı burger." },
+          "kk": { "name": "Ащы бургер", "description": "Тако соусы мен халапеньо қосылған ащы бургер." },
+          "ar": { "name": "برغر حار", "description": "برغر حار مع صلصة التاكو والهالابينو." }
+        }
+      },
+      {
+        "price": 3800,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Куриный донер", "description": "Сытный горячий ролл с курицей, овощами и картофелем фри, подаётся с пикантными перчиками." },
+          "en": { "name": "Chicken doner", "description": "Hearty hot chicken wrap with vegetables and fries, served with spicy pickled peppers." },
+          "zh": { "name": "鸡肉多纳卷", "description": "配鸡肉、蔬菜和薯条的热烤卷饼，配辣腌辣椒" },
+          "hi": { "name": "चिकन डोनर", "description": "सब्जियों और फ्राइज के साथ गरम चिकन रैप, मसालेदार अचार मिर्च के साथ परोसा जाता है।" },
+          "tr": { "name": "Tavuk Döner Dürüm", "description": "Sebze ve patates kızartması ile doldurulmuş, acı turşu biberle servis edilen sıcak dürüm." },
+          "kk": { "name": "Тауық донері", "description": "Тауық еті, көкөністер мен картоп фри қосылған тойымды ыстық ролл, ащы бұрыштармен беріледі." },
+          "ar": { "name": "دونر دجاج", "description": "لفّة دجاج ساخنة مشبعة مع الخضار والبطاطس المقلية، تُقدَّم مع فلفل مخلل حار." }
+        }
+      },
+      {
+        "price": 4900,
+        "image_url": null,
+        "allergens": ["gluten", "milk"],
+        "translations": {
+          "ru": { "name": "Цезарь ролл", "description": "Ролл с курицей и соусом цезарь." },
+          "en": { "name": "Chicken Caesar roll", "description": "Wrap with chicken and Caesar sauce." },
+          "zh": { "name": "凯撒鸡肉卷", "description": "配鸡肉和凯撒酱的卷饼" },
+          "hi": { "name": "चिकन सीज़र रोल", "description": "चिकन और सीज़र सॉस के साथ रोल।" },
+          "tr": { "name": "Tavuklu Sezar Dürüm", "description": "Tavuk ve Sezar soslu dürüm." },
+          "kk": { "name": "Цезарь роллы", "description": "Тауық еті мен цезарь соусы қосылған ролл." },
+          "ar": { "name": "رول سيزر بالدجاج", "description": "لفّة بالدجاج وصلصة سيزر." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Пасты",
+      "en": "Pasta",
+      "zh": "意面",
+      "hi": "पास्ता",
+      "tr": "Makarna",
+      "kk": "Пасталар",
+      "ar": "المعكرونة"
+    },
+    "dishes": [
+      {
+        "price": 3700,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Пенне Арабьята", "description": "Острая паста с томатным соусом и базиликом." },
+          "en": { "name": "Penne arrabbiata", "description": "Spicy pasta with tomato sauce and basil." },
+          "zh": { "name": "香辣茄汁斜管面", "description": "配番茄酱和罗勒的辣味斜管面" },
+          "hi": { "name": "पेने अराबीयाटा", "description": "टमाटर सॉस और बेसिल के साथ मसालेदार पास्ता।" },
+          "tr": { "name": "Penne Arrabbiata", "description": "Domates soslu ve fesleğenli acılı makarna." },
+          "kk": { "name": "Пенне Арабьята", "description": "Томат соусы мен райхан қосылған ащы паста." },
+          "ar": { "name": "بيني أرابياتا", "description": "معكرونة حارة بصلصة الطماطم والريحان." }
+        }
+      },
+      {
+        "price": 4100,
+        "image_url": null,
+        "allergens": ["gluten", "eggs", "milk"],
+        "translations": {
+          "ru": { "name": "Спагетти Болоньезе", "description": "Итальянская паста с мясным соусом." },
+          "en": { "name": "Spaghetti bolognese", "description": "Italian pasta with meat sauce." },
+          "zh": { "name": "博洛尼亚肉酱意面", "description": "配肉酱的传统意大利面" },
+          "hi": { "name": "स्पैगेटी बोलोनीज़", "description": "मीट सॉस के साथ इतालवी पास्ता।" },
+          "tr": { "name": "Spagetti Bolonez", "description": "Kıymalı soslu İtalyan makarnası." },
+          "kk": { "name": "Спагетти Болоньезе", "description": "Ет соусы бар итальяндық паста." },
+          "ar": { "name": "سباغيتي بولونيز", "description": "معكرونة إيطالية بصلصة اللحم." }
+        }
+      },
+      {
+        "price": 4400,
+        "image_url": null,
+        "allergens": ["gluten", "milk", "eggs"],
+        "translations": {
+          "ru": { "name": "Феттучини Альфредо с грибами", "description": "Нежная паста в сливочном соусе с грибами." },
+          "en": { "name": "Fettuccine Alfredo with mushrooms", "description": "Creamy fettuccine Alfredo with mushrooms." },
+          "zh": { "name": "蘑菇阿尔弗雷多宽面", "description": "奶油酱汁浓郁宽面配蘑菇" },
+          "hi": { "name": "मशरूम के साथ फेटुचिनी अल्फ्रेडो", "description": "मशरूम के साथ मलाईदार सॉस में फेटुचिनी पास्ता।" },
+          "tr": { "name": "Mantarlı Fettuccine Alfredo", "description": "Mantarlı, kremalı soslu fettuccine makarnası." },
+          "kk": { "name": "Саңырауқұлақты Феттучини Альфредо", "description": "Саңырауқұлақ қосылған кілегейлі соустағы нәзік паста." },
+          "ar": { "name": "فيتوتشيني ألفريدو بالفطر", "description": "معكرونة فيتوتشيني طرية بصلصة الكريمة مع الفطر." }
+        }
+      },
+      {
+        "price": 4700,
+        "image_url": null,
+        "allergens": ["gluten", "milk", "eggs"],
+        "addons": [
+          {
+            "id": "mushrooms",
+            "price": 1600,
+            "translations": {
+              "ru": { "name": "Грибы" },
+              "en": { "name": "Mushrooms" },
+              "zh": { "name": "蘑菇" },
+              "hi": { "name": "मशरूम" },
+              "tr": { "name": "Mantar" },
+              "kk": { "name": "Саңырауқұлақ" },
+              "ar": { "name": "فطر" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Феттучини Альфредо с курицей", "description": "Нежная паста в сливочном соусе с курицей." },
+          "en": { "name": "Chicken fettuccine Alfredo", "description": "Creamy fettuccine Alfredo with chicken." },
+          "zh": { "name": "鸡肉阿尔弗雷多宽面", "description": "奶油酱汁浓郁宽面配鸡肉" },
+          "hi": { "name": "चिकन फेटुचिनी अल्फ्रेडो", "description": "चिकन के साथ मलाईदार सॉस में फेटुचिनी पास्ता।" },
+          "tr": { "name": "Tavuklu Fettuccine Alfredo", "description": "Tavuklu, kremalı soslu fettuccine makarnası." },
+          "kk": { "name": "Тауықты Феттучини Альфредо", "description": "Тауық еті қосылған кілегейлі соустағы нәзік паста." },
+          "ar": { "name": "فيتوتشيني ألفريدو بالدجاج", "description": "معكرونة فيتوتشيني طرية بصلصة الكريمة مع الدجاج." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Пиццы",
+      "en": "Pizzas",
+      "zh": "披萨",
+      "hi": "पिज्जा",
+      "tr": "Pizzalar",
+      "kk": "Пиццалар",
+      "ar": "البيتزا"
+    },
+    "dishes": [
+      {
+        "price": 5000,
+        "image_url": null,
+        "allergens": ["gluten", "milk"],
+        "addons": [
+          {
+            "id": "fresh-mozzarella",
+            "price": 1000,
+            "allergens": ["milk"],
+            "translations": {
+              "ru": { "name": "Свежая моцарелла" },
+              "en": { "name": "Fresh mozzarella" },
+              "zh": { "name": "新鲜马苏里拉奶酪" },
+              "hi": { "name": "ताज़ा मोज़ेरेला" },
+              "tr": { "name": "Taze mozzarella" },
+              "kk": { "name": "Жаңа моцарелла" },
+              "ar": { "name": "موتزاريلا طازجة" }
+            }
+          },
+          {
+            "id": "mushrooms",
+            "price": 1600,
+            "translations": {
+              "ru": { "name": "Грибы" },
+              "en": { "name": "Mushrooms" },
+              "zh": { "name": "蘑菇" },
+              "hi": { "name": "मशरूम" },
+              "tr": { "name": "Mantar" },
+              "kk": { "name": "Саңырауқұлақ" },
+              "ar": { "name": "فطر" }
+            }
+          },
+          {
+            "id": "pepperoni",
+            "price": 800,
+            "translations": {
+              "ru": { "name": "Пепперони" },
+              "en": { "name": "Pepperoni" },
+              "zh": { "name": "意式辣香肠" },
+              "hi": { "name": "पेपरोनी" },
+              "tr": { "name": "Pepperoni" },
+              "kk": { "name": "Пепперони" },
+              "ar": { "name": "ببروني" }
+            }
+          },
+          {
+            "id": "sausages",
+            "price": 800,
+            "translations": {
+              "ru": { "name": "Сосиски" },
+              "en": { "name": "Sausages" },
+              "zh": { "name": "香肠" },
+              "hi": { "name": "सॉसेज" },
+              "tr": { "name": "Sosis" },
+              "kk": { "name": "Шұжық" },
+              "ar": { "name": "نقانق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Пицца Маргарита", "description": "Классическая пицца с томатами и моцареллой." },
+          "en": { "name": "Pizza Margherita", "description": "Classic pizza with tomato and mozzarella." },
+          "zh": { "name": "玛格丽特披萨", "description": "配番茄和马苏里拉奶酪的经典披萨" },
+          "hi": { "name": "पिज्जा मार्गरीटा", "description": "टमाटर और मोज़ारेला के साथ क्लासिक पिज्जा।" },
+          "tr": { "name": "Pizza Margherita", "description": "Domates ve mozzarella ile klasik pizza." },
+          "kk": { "name": "Маргарита пиццасы", "description": "Қызанақ пен моцарелла қосылған классикалық пицца." },
+          "ar": { "name": "بيتزا مارغريتا", "description": "بيتزا كلاسيكية بالطماطم والموتزاريلا." }
+        }
+      },
+      {
+        "price": 4900,
+        "image_url": null,
+        "allergens": ["gluten", "milk"],
+        "addons": [
+          {
+            "id": "fresh-mozzarella",
+            "price": 1000,
+            "allergens": ["milk"],
+            "translations": {
+              "ru": { "name": "Свежая моцарелла" },
+              "en": { "name": "Fresh mozzarella" },
+              "zh": { "name": "新鲜马苏里拉奶酪" },
+              "hi": { "name": "ताज़ा मोज़ेरेला" },
+              "tr": { "name": "Taze mozzarella" },
+              "kk": { "name": "Жаңа моцарелла" },
+              "ar": { "name": "موتزاريلا طازجة" }
+            }
+          },
+          {
+            "id": "mushrooms",
+            "price": 1600,
+            "translations": {
+              "ru": { "name": "Грибы" },
+              "en": { "name": "Mushrooms" },
+              "zh": { "name": "蘑菇" },
+              "hi": { "name": "मशरूम" },
+              "tr": { "name": "Mantar" },
+              "kk": { "name": "Саңырауқұлақ" },
+              "ar": { "name": "فطر" }
+            }
+          },
+          {
+            "id": "pepperoni",
+            "price": 800,
+            "translations": {
+              "ru": { "name": "Пепперони" },
+              "en": { "name": "Pepperoni" },
+              "zh": { "name": "意式辣香肠" },
+              "hi": { "name": "पेपरोनी" },
+              "tr": { "name": "Pepperoni" },
+              "kk": { "name": "Пепперони" },
+              "ar": { "name": "ببروني" }
+            }
+          },
+          {
+            "id": "sausages",
+            "price": 800,
+            "translations": {
+              "ru": { "name": "Сосиски" },
+              "en": { "name": "Sausages" },
+              "zh": { "name": "香肠" },
+              "hi": { "name": "सॉसेज" },
+              "tr": { "name": "Sosis" },
+              "kk": { "name": "Шұжық" },
+              "ar": { "name": "نقانق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Пицца Четыре сыра", "description": "Нежная пицца с насыщенной сырной смесью." },
+          "en": { "name": "Four cheese pizza", "description": "Creamy pizza with rich cheese blend." },
+          "zh": { "name": "四芝士披萨", "description": "香浓多种芝士拼盘披萨" },
+          "hi": { "name": "फोर चीज़ पिज्जा", "description": "समृद्ध चीज़ मिश्रण के साथ मलाईदार पिज्जा।" },
+          "tr": { "name": "Dört Peynirli Pizza", "description": "Zengin peynir harmanlı kremamsı pizza." },
+          "kk": { "name": "Төрт сыр пиццасы", "description": "Қанық сыр қоспасы бар нәзік пицца." },
+          "ar": { "name": "بيتزا الأجبان الأربعة", "description": "بيتزا كريمية بمزيج غني من الأجبان." }
+        }
+      },
+      {
+        "price": 5100,
+        "image_url": null,
+        "allergens": ["gluten", "milk"],
+        "addons": [
+          {
+            "id": "fresh-mozzarella",
+            "price": 1000,
+            "allergens": ["milk"],
+            "translations": {
+              "ru": { "name": "Свежая моцарелла" },
+              "en": { "name": "Fresh mozzarella" },
+              "zh": { "name": "新鲜马苏里拉奶酪" },
+              "hi": { "name": "ताज़ा मोज़ेरेला" },
+              "tr": { "name": "Taze mozzarella" },
+              "kk": { "name": "Жаңа моцарелла" },
+              "ar": { "name": "موتزاريلا طازجة" }
+            }
+          },
+          {
+            "id": "mushrooms",
+            "price": 1600,
+            "translations": {
+              "ru": { "name": "Грибы" },
+              "en": { "name": "Mushrooms" },
+              "zh": { "name": "蘑菇" },
+              "hi": { "name": "मशरूम" },
+              "tr": { "name": "Mantar" },
+              "kk": { "name": "Саңырауқұлақ" },
+              "ar": { "name": "فطر" }
+            }
+          },
+          {
+            "id": "pepperoni",
+            "price": 800,
+            "translations": {
+              "ru": { "name": "Пепперони" },
+              "en": { "name": "Pepperoni" },
+              "zh": { "name": "意式辣香肠" },
+              "hi": { "name": "पेपरोनी" },
+              "tr": { "name": "Pepperoni" },
+              "kk": { "name": "Пепперони" },
+              "ar": { "name": "ببروني" }
+            }
+          },
+          {
+            "id": "sausages",
+            "price": 800,
+            "translations": {
+              "ru": { "name": "Сосиски" },
+              "en": { "name": "Sausages" },
+              "zh": { "name": "香肠" },
+              "hi": { "name": "सॉसेज" },
+              "tr": { "name": "Sosis" },
+              "kk": { "name": "Шұжық" },
+              "ar": { "name": "نقانق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Пицца с копченой индейкой", "description": "Пицца с копченой индейкой и грибами." },
+          "en": { "name": "Smoked pizza with turkey", "description": "Pizza with smoked turkey and mushrooms." },
+          "zh": { "name": "烟熏火鸡披萨", "description": "配烟熏火鸡肉和蘑菇的披萨" },
+          "hi": { "name": "स्मोक्ड टर्की पिज्जा", "description": "स्मोक्ड टर्की और मशरूम के साथ पिज्जा।" },
+          "tr": { "name": "Füme Hindili Pizza", "description": "Füme hindi ve mantarlı pizza." },
+          "kk": { "name": "Ысталған күркетауық қосылған пицца", "description": "Ысталған күркетауық пен саңырауқұлақ қосылған пицца." },
+          "ar": { "name": "بيتزا بالديك الرومي المدخّن", "description": "بيتزا بالديك الرومي المدخّن والفطر." }
+        }
+      },
+      {
+        "price": 5100,
+        "image_url": null,
+        "allergens": ["gluten", "milk"],
+        "addons": [
+          {
+            "id": "fresh-mozzarella",
+            "price": 1000,
+            "allergens": ["milk"],
+            "translations": {
+              "ru": { "name": "Свежая моцарелла" },
+              "en": { "name": "Fresh mozzarella" },
+              "zh": { "name": "新鲜马苏里拉奶酪" },
+              "hi": { "name": "ताज़ा मोज़ेरेला" },
+              "tr": { "name": "Taze mozzarella" },
+              "kk": { "name": "Жаңа моцарелла" },
+              "ar": { "name": "موتزاريلا طازجة" }
+            }
+          },
+          {
+            "id": "mushrooms",
+            "price": 1600,
+            "translations": {
+              "ru": { "name": "Грибы" },
+              "en": { "name": "Mushrooms" },
+              "zh": { "name": "蘑菇" },
+              "hi": { "name": "मशरूम" },
+              "tr": { "name": "Mantar" },
+              "kk": { "name": "Саңырауқұлақ" },
+              "ar": { "name": "فطر" }
+            }
+          },
+          {
+            "id": "pepperoni",
+            "price": 800,
+            "translations": {
+              "ru": { "name": "Пепперони" },
+              "en": { "name": "Pepperoni" },
+              "zh": { "name": "意式辣香肠" },
+              "hi": { "name": "पेपरोनी" },
+              "tr": { "name": "Pepperoni" },
+              "kk": { "name": "Пепперони" },
+              "ar": { "name": "ببروني" }
+            }
+          },
+          {
+            "id": "sausages",
+            "price": 800,
+            "translations": {
+              "ru": { "name": "Сосиски" },
+              "en": { "name": "Sausages" },
+              "zh": { "name": "香肠" },
+              "hi": { "name": "सॉसेज" },
+              "tr": { "name": "Sosis" },
+              "kk": { "name": "Шұжық" },
+              "ar": { "name": "نقانق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Итальянская пицца", "description": "Сытная пицца с колбасками, грибами и расплавленным сыром." },
+          "en": { "name": "Italian pizza", "description": "Hearty pizza with sausages, mushrooms and melted cheese." },
+          "zh": { "name": "意式风味披萨", "description": "配香肠、蘑菇和融化芝士的丰盛披萨" },
+          "hi": { "name": "इतालवी पिज्जा", "description": "सॉसेज, मशरूम और पिघले हुए चीज़ के साथ भरपूर पिज्जा।" },
+          "tr": { "name": "İtalyan Pizza", "description": "Sosis, mantar ve erimiş peynirli doyurucu pizza." },
+          "kk": { "name": "Итальяндық пицца", "description": "Шұжықшалар, саңырауқұлақтар және ерітілген сыр қосылған тойымды пицца." },
+          "ar": { "name": "بيتزا إيطالية", "description": "بيتزا مشبعة بالنقانق والفطر والجبن الذائب." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Горячие блюда",
+      "en": "Main Courses",
+      "zh": "主菜",
+      "hi": "मुख्य व्यंजन",
+      "tr": "Ana Yemekler",
+      "kk": "Ыстық тағамдар",
+      "ar": "الأطباق الرئيسية"
+    },
+    "dishes": [
+      {
+        "price": 5500,
+        "image_url": null,
+        "allergens": ["milk", "dioxide and sulphites"],
+        "translations": {
+          "ru": { "name": "Жареная курица с картофелем фри", "description": "Сочная курица гриль с золотистой корочкой, подаётся с хрустящим картофелем фри и свежим салатом." },
+          "en": { "name": "Roasted chicken with french fries", "description": "Juicy grilled half chicken with a golden crust, served with crispy fries and fresh salad." },
+          "zh": { "name": "烤鸡配薯条", "description": "金黄多汁烤半鸡，配香脆薯条和新鲜沙拉" },
+          "hi": { "name": "फ्रेंच फ्राइज के साथ रोस्टेड चिकन", "description": "सुनहरी पपड़ी के साथ रसदार ग्रिल्ड चिकन, कुरकुरे फ्राइज और ताजे सलाद के साथ परोसा जाता है।" },
+          "tr": { "name": "Patates Kızartmalı Kızarmış Tavuk", "description": "Altın sarısı kabuklu sulu ızgara tavuk, çıtır patates ve taze salata ile servis edilir." },
+          "kk": { "name": "Картоп фри қосылған қуырылған тауық", "description": "Алтын қабығы бар шырынды гриль тауығы, қытырлақ картоп фри және балғын салатпен беріледі." },
+          "ar": { "name": "دجاج مشوي مع بطاطس مقلية", "description": "نصف دجاجة مشوية طرية بقشرة ذهبية، تُقدَّم مع بطاطس مقرمشة وسلطة طازجة." }
+        }
+      },
+      {
+        "price": 4900,
+        "image_url": null,
+        "allergens": ["gluten", "milk", "dioxide and sulphites", "eggs"],
+        "translations": {
+          "ru": { "name": "Куриная грудка на гриле", "description": "Нежное куриное филе с овощами в тёплой тортилье, подаётся с картофелем фри и соусом." },
+          "en": { "name": "Grilled chicken breast", "description": "Tender chicken fillet with vegetables in a warm tortilla, served with fries and sauce." },
+          "zh": { "name": "烤鸡胸肉", "description": "温热面饼包裹鲜嫩鸡胸肉与蔬菜，配薯条和酱汁" },
+          "hi": { "name": "ग्रिल्ड चिकन ब्रेस्ट", "description": "गर्म टॉर्टिला में सब्जियों के साथ नरम चिकन फिलेट, फ्राइज और सॉस के साथ परोसा जाता है।" },
+          "tr": { "name": "Izgara Tavuk Göğsü", "description": "Sıcak lavaş içinde sebzeli yumuşak tavuk pirzola, patates kızartması ve sos ile servis edilir." },
+          "kk": { "name": "Грильдегі тауық төс еті", "description": "Жылы тортильядағы көкөністері бар нәзік тауық филесі, картоп фри және соуспен беріледі." },
+          "ar": { "name": "صدر دجاج مشوي", "description": "فيليه دجاج طري مع الخضار في تورتيلا دافئة، يُقدَّم مع بطاطس مقلية وصلصة." }
+        }
+      },
+      {
+        "price": 8500,
+        "image_url": null,
+        "allergens": ["gluten", "milk", "eggs"],
+        "translations": {
+          "ru": { "name": "Кефте с булгуром", "description": "Сочные кефте с булгуром, свежими овощами и томатным соусом." },
+          "en": { "name": "Kofte with bulgur", "description": "Juicy beef kofte served with bulgur, fresh vegetables and tomato sauce." },
+          "zh": { "name": "布古尔麦烤肉丸", "description": "多汁牛肉丸配布古尔麦粒、新鲜蔬菜和番茄酱" },
+          "hi": { "name": "बुलगुर के साथ कोफ्ता", "description": "बुलगुर, ताज़ी सब्जियों और टमाटर सॉस के साथ परोसा जाने वाला रसदार बीफ कोफ्ता।" },
+          "tr": { "name": "Bulgurlu Köfte", "description": "Bulgur, taze sebzeler ve domates sosu ile servis edilen sulu dana köfte." },
+          "kk": { "name": "Булгур қосылған кёфте", "description": "Булгур, балғын көкөністер және томат соусы бар шырынды кёфте." },
+          "ar": { "name": "كفتة مع برغل", "description": "كفتة لحم بقري طرية تُقدَّم مع البرغل والخضار الطازجة وصلصة الطماطم." }
+        }
+      },
+      {
+        "price": 3700,
+        "image_url": null,
+        "allergens": ["gluten", "milk", "eggs"],
+        "translations": {
+          "ru": { "name": "Пельмени", "description": "Горячие пельмени в ароматном сметанном соусе с чесноком и мятой, посыпанные копчёным сыром чечел." },
+          "en": { "name": "Pelmeni", "description": "Hot dumplings served with a fragrant sour cream sauce with garlic and mint, topped with smoked chechil cheese." },
+          "zh": { "name": "俄式水饺", "description": "热饺子配蒜香薄荷酸奶油酱，顶撒烟熏车扯尔奶酪" },
+          "hi": { "name": "पेलमेनी (डमप्लिंग्स)", "description": "लहसुन और पुदीने के साथ खट्टे मक्खन सॉस में गर्म डंपलिंग, ऊपर से स्मोक्ड चचिल चीज़।" },
+          "tr": { "name": "Pelmeni (Mantı)", "description": "Sarımsaklı ve naneli ekşi krema sosunda, üzerinde tütsülenmiş çeçil peyniri ile sıcak mantı." },
+          "kk": { "name": "Пельмендер", "description": "Сарымсақ пен жалбыз қосылған хош иісті қаймақ соусындағы ыстық пельмендер, үстіне ысталған чечел сыры себілген." },
+          "ar": { "name": "بيلميني (فطائر روسية محشوة)", "description": "فطائر محشوة ساخنة (بيلميني) بصلصة القشدة الحامضة العطرية بالثوم والنعناع، يعلوها جبن تشيتشيل المدخّن." }
+        }
+      },
+      {
+        "price": 3700,
+        "image_url": null,
+        "allergens": ["eggs", "soy", "sesame", "milk"],
+        "translations": {
+          "ru": { "name": "Жареный рис с овощами", "description": "Овощной рис с яйцом и соусами." },
+          "en": { "name": "Vegetable fried rice", "description": "Vegetable fried rice with egg and sauces." },
+          "zh": { "name": "蔬菜炒饭", "description": "配鸡蛋和酱油的蔬菜炒饭" },
+          "hi": { "name": "वेजीटेबल फ्राइड राइस", "description": "अंडे और सॉस के साथ सब्जी फ्राइड राइस।" },
+          "tr": { "name": "Sebzeli Kızarmış Pilav", "description": "Yumurtalı ve soslu sebzeli pilav." },
+          "kk": { "name": "Көкөністермен қуырылған күріш", "description": "Жұмыртқа мен соустар қосылған көкөніс күріші." },
+          "ar": { "name": "أرز مقلي بالخضار", "description": "أرز مقلي بالخضار مع البيض والصلصات." }
+        }
+      },
+      {
+        "price": 4200,
+        "image_url": null,
+        "allergens": ["milk"],
+        "translations": {
+          "ru": { "name": "Курица в соусе карри", "description": "Нежная курица в ароматном соусе карри с рисом." },
+          "en": { "name": "Chicken in curry", "description": "Tender chicken in aromatic curry sauce with rice." },
+          "zh": { "name": "咖喱鸡肉", "description": "香浓咖喱酱汁鲜嫩鸡肉配米饭" },
+          "hi": { "name": "चिकन करी", "description": "चावल के साथ सुगंधित करी सॉस में नरम चिकन।" },
+          "tr": { "name": "Köri Soslu Tavuk", "description": "Pirinç pilavı ile aromatik köri soslu yumuşak tavuk." },
+          "kk": { "name": "Карри соусындағы тауық", "description": "Күрішпен бірге хош иісті карри соусындағы нәзік тауық еті." },
+          "ar": { "name": "دجاج بصلصة الكاري", "description": "دجاج طري في صلصة كاري عطرية مع الأرز." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Кофе",
+      "en": "Coffee",
+      "zh": "咖啡",
+      "hi": "कॉफी",
+      "tr": "Kahve",
+      "kk": "Кофе",
+      "ar": "القهوة"
+    },
+    "dishes": [
+      {
+        "price": 1000,
+        "image_url": null,
+        "allergens": [],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Эспрессо (single)", "description": "Классический одинарный эспрессо." },
+          "en": { "name": "Espresso (single)", "description": "Classic single espresso." },
+          "zh": { "name": "意式浓缩（单份）", "description": "经典单份意式浓缩咖啡" },
+          "hi": { "name": "एस्प्रेसो (सिंगल)", "description": "क्लासिक सिंगल एस्प्रेसो।" },
+          "tr": { "name": "Espresso (tek)", "description": "Klasik tek espresso." },
+          "kk": { "name": "Эспрессо (жалғыз)", "description": "Классикалық дара эспрессо." },
+          "ar": { "name": "إسبريسو (مفرد)", "description": "إسبريسو مفرد كلاسيكي." }
+        }
+      },
+      {
+        "price": 1200,
+        "image_url": null,
+        "allergens": [],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Эспрессо (double)", "description": "Классический двойной эспрессо." },
+          "en": { "name": "Espresso (double)", "description": "Classic double espresso." },
+          "zh": { "name": "意式浓缩（双份）", "description": "经典双份意式浓缩咖啡" },
+          "hi": { "name": "एस्प्रेसो (डबल)", "description": "क्लासिक डबल एस्प्रेसो।" },
+          "tr": { "name": "Espresso (çift)", "description": "Klasik çift espresso." },
+          "kk": { "name": "Эспрессо (қос)", "description": "Классикалық қос эспрессо." },
+          "ar": { "name": "إسبريسو (مزدوج)", "description": "إسبريسو مزدوج كلاسيكي." }
+        }
+      },
+      {
+        "price": 1100,
+        "image_url": null,
+        "allergens": [],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Эспрессо-макиато (single)", "description": "Эспрессо с небольшим количеством молочной пены." },
+          "en": { "name": "Espresso macchiato (single)", "description": "Espresso with a dash of foamed milk." },
+          "zh": { "name": "玛奇朵（单份）", "description": "带少量奶泡的意式浓缩" },
+          "hi": { "name": "एस्प्रेसो म macchiato (सिंगल)", "description": "दूध के झाग के साथ एस्प्रेसो।" },
+          "tr": { "name": "Espresso Macchiato (tek)", "description": "Bir miktar süt köpüğü ile espresso." },
+          "kk": { "name": "Эспрессо-макиато (жалғыз)", "description": "Азғантай сүт көпіршігі қосылған эспрессо." },
+          "ar": { "name": "إسبريسو ماكياتو (مفرد)", "description": "إسبريسو مع قليل من رغوة الحليب." }
+        }
+      },
+      {
+        "price": 1300,
+        "image_url": null,
+        "allergens": [],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Эспрессо-макиато (double)", "description": "Двойной эспрессо с молочной пеной." },
+          "en": { "name": "Espresso macchiato (double)", "description": "Double espresso with foamed milk." },
+          "zh": { "name": "玛奇朵（双份）", "description": "带奶泡的双份意式浓缩" },
+          "hi": { "name": "एस्प्रेसो म macchiato (डबल)", "description": "दूध के झाग के साथ डबल एस्प्रेसो।" },
+          "tr": { "name": "Espresso Macchiato (çift)", "description": "Süt köpüğü ile çift espresso." },
+          "kk": { "name": "Эспрессо-макиато (қос)", "description": "Сүт көпіршігі бар қос эспрессо." },
+          "ar": { "name": "إسبريسو ماكياتو (مزدوج)", "description": "إسبريسو مزدوج مع رغوة الحليب." }
+        }
+      },
+      {
+        "price": 1800,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Флэт уайт (8 oz)", "description": "Кофе с двойным эспрессо и бархатным молоком." },
+          "en": { "name": "Flat white (8 oz)", "description": "Coffee with double espresso and velvety milk." },
+          "zh": { "name": "馥芮白 (8 oz)", "description": "双份浓缩搭配丝滑牛奶" },
+          "hi": { "name": "फ्लैट व्हाइट (8 oz)", "description": "डबल एस्प्रेसो और मखमली दूध के साथ कॉफी।" },
+          "tr": { "name": "Flat White (8 oz)", "description": "Çift espresso ve kadifemsi süt ile kahve." },
+          "kk": { "name": "Флэт уайт (8 oz)", "description": "Қос эспрессо мен жібектей сүт қосылған кофе." },
+          "ar": { "name": "فلات وايت (8 أونصة)", "description": "قهوة بإسبريسو مزدوج وحليب مخملي." }
+        }
+      },
+      {
+        "price": 2000,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Флэт уайт (12 oz)", "description": "Увеличенный флэт уайт." },
+          "en": { "name": "Flat white (12 oz)", "description": "Large flat white." },
+          "zh": { "name": "馥芮白 (12 oz)", "description": "大杯馥芮白" },
+          "hi": { "name": "फ्लैट व्हाइट (12 oz)", "description": "बड़ा फ्लैट व्हाइट।" },
+          "tr": { "name": "Flat White (12 oz)", "description": "Büyük boy Flat White." },
+          "kk": { "name": "Флэт уайт (12 oz)", "description": "Үлкейтілген флэт уайт." },
+          "ar": { "name": "فلات وايت (12 أونصة)", "description": "فلات وايت بحجم أكبر." }
+        }
+      },
+      {
+        "price": 2200,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Латте (12 oz)", "description": "Мягкий кофе с большим количеством молока." },
+          "en": { "name": "Latte (12 oz)", "description": "Soft coffee with plenty of milk." },
+          "zh": { "name": "拿铁 (12 oz)", "description": "奶香浓郁的拿铁咖啡" },
+          "hi": { "name": "लाटे (12 oz)", "description": "भरपूर दूध के साथ हल्की कॉफी।" },
+          "tr": { "name": "Latte (12 oz)", "description": "Bol sütlü yumuşak kahve." },
+          "kk": { "name": "Латте (12 oz)", "description": "Мол сүт қосылған жұмсақ кофе." },
+          "ar": { "name": "لاتيه (12 أونصة)", "description": "قهوة ناعمة مع كمية وفيرة من الحليب." }
+        }
+      },
+      {
+        "price": 2400,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Латте (16 oz)", "description": "Большой Латте." },
+          "en": { "name": "Latte (16 oz)", "description": "Large Latte." },
+          "zh": { "name": "拿铁 (16 oz)", "description": "大杯拿铁" },
+          "hi": { "name": "लाटे (16 oz)", "description": "बड़ा लाटे।" },
+          "tr": { "name": "Latte (16 oz)", "description": "Büyük boy Latte." },
+          "kk": { "name": "Латте (16 oz)", "description": "Үлкен Латте." },
+          "ar": { "name": "لاتيه (16 أونصة)", "description": "لاتيه بحجم كبير." }
+        }
+      },
+      {
+        "price": 1900,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Капучино (12 oz)", "description": "Классический капучино с плотной молочной пеной." },
+          "en": { "name": "Cappuccino (12 oz)", "description": "Classic cappuccino with dense milk foam." },
+          "zh": { "name": "卡布奇诺 (12 oz)", "description": "配绵密奶泡的经典卡布奇诺" },
+          "hi": { "name": "कप्पuccino (12 oz)", "description": "घने दूध के झाग के साथ क्लासिक कप्पuccino।" },
+          "tr": { "name": "Cappuccino (12 oz)", "description": "Yoğun süt köpüklü klasik cappuccino." },
+          "kk": { "name": "Капучино (12 oz)", "description": "Тығыз сүт көпіршігі бар классикалық капучино." },
+          "ar": { "name": "كابتشينو (12 أونصة)", "description": "كابتشينو كلاسيكي برغوة حليب كثيفة." }
+        }
+      },
+      {
+        "price": 2100,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Капучино (16 oz)", "description": "Большой капучино." },
+          "en": { "name": "Cappuccino (16 oz)", "description": "Large cappuccino." },
+          "zh": { "name": "卡布奇诺 (16 oz)", "description": "大杯卡布奇诺" },
+          "hi": { "name": "कप्पuccino (16 oz)", "description": "बड़ा कप्पuccino।" },
+          "tr": { "name": "Cappuccino (16 oz)", "description": "Büyük boy cappuccino." },
+          "kk": { "name": "Капучино (16 oz)", "description": "Үлкен капучино." },
+          "ar": { "name": "كابتشينو (16 أونصة)", "description": "كابتشينو بحجم كبير." }
+        }
+      },
+      {
+        "price": 1700,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Кафе Мокка (12 oz)", "description": "Кофейный напиток с шоколадом и молоком." },
+          "en": { "name": "Cafe Mocha (12 oz)", "description": "Coffee drink with chocolate and milk." },
+          "zh": { "name": "摩卡 (12 oz)", "description": "带巧克力与牛奶的咖啡饮品" },
+          "hi": { "name": "कैफे मोचा (12 oz)", "description": "चॉकलेट और दूध के साथ कॉफी ड्रिंक।" },
+          "tr": { "name": "Cafe Mocha (12 oz)", "description": "Çikolata ve süt içeren kahve içeceği." },
+          "kk": { "name": "Кафе Мокка (12 oz)", "description": "Шоколад пен сүт қосылған кофе сусын." },
+          "ar": { "name": "كافيه موكا (12 أونصة)", "description": "مشروب قهوة بالشوكولاتة والحليب." }
+        }
+      },
+      {
+        "price": 1900,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Кафе Мокка (16 oz)", "description": "Большой Кафе Мокка." },
+          "en": { "name": "Cafe Mocha (16 oz)", "description": "Large Cafe Mocha." },
+          "zh": { "name": "摩卡 (16 oz)", "description": "大杯摩卡" },
+          "hi": { "name": "कैफे मोचा (16 oz)", "description": "बड़ा कैफे मोचा।" },
+          "tr": { "name": "Cafe Mocha (16 oz)", "description": "Büyük boy Cafe Mocha." },
+          "kk": { "name": "Кафе Мокка (16 oz)", "description": "Үлкен Кафе Мокка." },
+          "ar": { "name": "كافيه موكا (16 أونصة)", "description": "كافيه موكا بحجم كبير." }
+        }
+      },
+      {
+        "price": 1700,
+        "image_url": null,
+        "allergens": [],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Американо (12 oz)", "description": "Классический американо." },
+          "en": { "name": "Americano (12 oz)", "description": "Classic Americano." },
+          "zh": { "name": "美式咖啡 (12 oz)", "description": "经典美式咖啡" },
+          "hi": { "name": "अमेरिकानो (12 oz)", "description": "क्लासिक अमेरिकानो।" },
+          "tr": { "name": "Americano (12 oz)", "description": "Klasik Amerikan kahvesi." },
+          "kk": { "name": "Американо (12 oz)", "description": "Классикалық американо." },
+          "ar": { "name": "أمريكانو (12 أونصة)", "description": "أمريكانو كلاسيكي." }
+        }
+      },
+      {
+        "price": 1900,
+        "image_url": null,
+        "allergens": [],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Американо (16 oz)", "description": "Большой американо." },
+          "en": { "name": "Americano (16 oz)", "description": "Large Americano." },
+          "zh": { "name": "美式咖啡 (16 oz)", "description": "大杯美式咖啡" },
+          "hi": { "name": "अमेरिकानो (16 oz)", "description": "बड़ा अमेरिकानो।" },
+          "tr": { "name": "Americano (16 oz)", "description": "Büyük boy Amerikan kahvesi." },
+          "kk": { "name": "Американо (16 oz)", "description": "Үлкен американо." },
+          "ar": { "name": "أمريكانو (16 أونصة)", "description": "أمريكانو بحجم كبير." }
+        }
+      },
+      {
+        "price": 2000,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Горячий шоколад (12 oz)", "description": "Густой согревающий горячий шоколад." },
+          "en": { "name": "Hot Chocolate (12 oz)", "description": "Rich warming hot chocolate." },
+          "zh": { "name": "热巧克力 (12 oz)", "description": "浓郁温暖热巧克力" },
+          "hi": { "name": "हॉट चॉकलेट (12 oz)", "description": "समृद्ध और गर्म हॉट चॉकलेट।" },
+          "tr": { "name": "Sıcak Çikolata (12 oz)", "description": "Yoğun ve ısıtan sıcak çikolata." },
+          "kk": { "name": "Ыстық шоколад (12 oz)", "description": "Қою жылытатын ыстық шоколад." },
+          "ar": { "name": "شوكولاتة ساخنة (12 أونصة)", "description": "شوكولاتة ساخنة غنية ومدفئة." }
+        }
+      },
+      {
+        "price": 2100,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Горячий шоколад (16 oz)", "description": "Большой горячий шоколад." },
+          "en": { "name": "Hot Chocolate (16 oz)", "description": "Large hot chocolate." },
+          "zh": { "name": "热巧克力 (16 oz)", "description": "大杯热巧克力" },
+          "hi": { "name": "हॉट चॉकलेट (16 oz)", "description": "बड़ा हॉट चॉकलेट।" },
+          "tr": { "name": "Sıcak Çikolata (16 oz)", "description": "Büyük boy sıcak çikolata." },
+          "kk": { "name": "Ыстық шоколад (16 oz)", "description": "Үлкен ыстық шоколад." },
+          "ar": { "name": "شوكولاتة ساخنة (16 أونصة)", "description": "شوكولاتة ساخنة بحجم كبير." }
+        }
+      },
+      {
+        "price": 1800,
+        "image_url": null,
+        "allergens": [],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Айс Американо (16 oz)", "description": "Освежающий холодный американо со льдом." },
+          "en": { "name": "Iced Americano (16 oz)", "description": "Refreshing iced Americano." },
+          "zh": { "name": "冰美式 (16 oz)", "description": "清爽冰美式咖啡" },
+          "hi": { "name": "आced अमेरिकानो (16 oz)", "description": "ताज़ा आइस अमेरिकानो।" },
+          "tr": { "name": "Iced Americano (16 oz)", "description": "Ferahlatıcı soğuk Americano." },
+          "kk": { "name": "Айс Американо (16 oz)", "description": "Мұзы бар сергітетін салқын американо." },
+          "ar": { "name": "آيس أمريكانو (16 أونصة)", "description": "أمريكانو بارد منعش مع الثلج." }
+        }
+      },
+      {
+        "price": 2000,
+        "image_url": null,
+        "allergens": ["milk"],
+        "addons": [
+          {
+            "id": "syrup-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Карамель" },
+              "en": { "name": "Caramel syrup" },
+              "zh": { "name": "焦糖糖浆" },
+              "hi": { "name": "कैरेमल सिरप" },
+              "tr": { "name": "Karamel şurubu" },
+              "kk": { "name": "Карамель сиропы" },
+              "ar": { "name": "شراب الكراميل" }
+            }
+          },
+          {
+            "id": "syrup-salted-caramel",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Соленая карамель" },
+              "en": { "name": "Salted caramel syrup" },
+              "zh": { "name": "海盐焦糖糖浆" },
+              "hi": { "name": "सॉल्टेड कैरेमल सिरप" },
+              "tr": { "name": "Tuzlu karamel şurubu" },
+              "kk": { "name": "Тұзды карамель сиропы" },
+              "ar": { "name": "شراب الكراميل المملح" }
+            }
+          },
+          {
+            "id": "syrup-vanilla",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Ваниль" },
+              "en": { "name": "Vanilla syrup" },
+              "zh": { "name": "香草糖浆" },
+              "hi": { "name": "वैनिला सिरप" },
+              "tr": { "name": "Vanilya şurubu" },
+              "kk": { "name": "Ваниль сиропы" },
+              "ar": { "name": "شراب الفانيليا" }
+            }
+          },
+          {
+            "id": "syrup-popcorn",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Попкорн" },
+              "en": { "name": "Popcorn syrup" },
+              "zh": { "name": "爆米花糖浆" },
+              "hi": { "name": "पॉपकॉर्न सिरप" },
+              "tr": { "name": "Patlamış mısır şurubu" },
+              "kk": { "name": "Попкорн сиропы" },
+              "ar": { "name": "شراب الفشار" }
+            }
+          },
+          {
+            "id": "syrup-hazelnut",
+            "price": 500,
+            "translations": {
+              "ru": { "name": "Сироп Лесной орех" },
+              "en": { "name": "Hazelnut syrup" },
+              "zh": { "name": "榛子糖浆" },
+              "hi": { "name": "हेज़लनट सिरप" },
+              "tr": { "name": "Fındık şurubu" },
+              "kk": { "name": "Орман жаңғағы сиропы" },
+              "ar": { "name": "شراب البندق" }
+            }
+          }
+        ],
+        "translations": {
+          "ru": { "name": "Айс Латте (16 oz)", "description": "Холодный кофейный напиток с молоком и льдом." },
+          "en": { "name": "Iced Latte (16 oz)", "description": "Cold coffee drink with milk and ice." },
+          "zh": { "name": "冰拿铁 (16 oz)", "description": "带牛奶与冰块的冰咖啡饮品" },
+          "hi": { "name": "आced लाटे (16 oz)", "description": "दूध और बर्फ के साथ ठंडी कॉफी।" },
+          "tr": { "name": "Iced Latte (16 oz)", "description": "Sütlü ve buzlu soğuk kahve." },
+          "kk": { "name": "Айс Латте (16 oz)", "description": "Сүт пен мұз қосылған салқын кофе сусын." },
+          "ar": { "name": "آيس لاتيه (16 أونصة)", "description": "مشروب قهوة بارد مع الحليب والثلج." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Чай",
+      "en": "Tea",
+      "zh": "茶类",
+      "hi": "चाय",
+      "tr": "Çay",
+      "kk": "Шай",
+      "ar": "الشاي"
+    },
+    "dishes": [
+      {
+        "price": 1200,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Черный чай", "description": "Классический черный чай." },
+          "en": { "name": "Black tea", "description": "Classic black tea." },
+          "zh": { "name": "红茶", "description": "经典红茶" },
+          "hi": { "name": "काली चाय", "description": "क्लासिक काली चाय।" },
+          "tr": { "name": "Siyah Çay", "description": "Klasik siyah çay." },
+          "kk": { "name": "Қара шай", "description": "Классикалық қара шай." },
+          "ar": { "name": "شاي أسود", "description": "شاي أسود كلاسيكي." }
+        }
+      },
+      {
+        "price": 1200,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Эрл Грей", "description": "Ароматный черный чай с бергамотом." },
+          "en": { "name": "Earl Grey", "description": "Aromatic black tea with bergamot." },
+          "zh": { "name": "伯爵红茶", "description": "带有香柠檬风味的红茶" },
+          "hi": { "name": "अरल ग्रे", "description": "बर्गमोट के साथ सुगंधित काली चाय।" },
+          "tr": { "name": "Earl Grey", "description": "Bergamot aromalı siyah çay." },
+          "kk": { "name": "Эрл Грей", "description": "Бергамот қосылған хош иісті қара шай." },
+          "ar": { "name": "إيرل غراي", "description": "شاي أسود عطري بالبرغموت." }
+        }
+      },
+      {
+        "price": 1200,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Зеленый чай Сенча", "description": "Традиционный зеленый чай." },
+          "en": { "name": "Green tea Sencha", "description": "Traditional green tea." },
+          "zh": { "name": "煎茶绿茶", "description": "传统绿茶" },
+          "hi": { "name": "हरी चाय (सेनचा)", "description": "पारंपरिक हरी चाय।" },
+          "tr": { "name": "Yeşil Çay (Sencha)", "description": "Geleneksel yeşil çay." },
+          "kk": { "name": "Сенча жасыл шайы", "description": "Дәстүрлі жасыл шай." },
+          "ar": { "name": "شاي أخضر سنتشا", "description": "شاي أخضر تقليدي." }
+        }
+      },
+      {
+        "price": 1200,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Чай с перечной мятой", "description": "Освежающий травяной чай с мятой." },
+          "en": { "name": "Peppermint tea", "description": "Refreshing herbal mint tea." },
+          "zh": { "name": "薄荷茶", "description": "清爽草本薄荷茶" },
+          "hi": { "name": "पुदीना चाय", "description": "ताज़ा हर्बल मिंट चाय।" },
+          "tr": { "name": "Nane Çayı", "description": "Ferahlatıcı bitkisel nane çayı." },
+          "kk": { "name": "Бұрыш жалбызы бар шай", "description": "Жалбыз қосылған сергітетін шөп шайы." },
+          "ar": { "name": "شاي بالنعناع الفلفلي", "description": "شاي أعشاب منعش بالنعناع." }
+        }
+      },
+      {
+        "price": 1200,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Ягодный чай", "description": "Ароматный фруктово-ягодный чай." },
+          "en": { "name": "Berries tea", "description": "Aromatic fruit and berry tea." },
+          "zh": { "name": "浆果茶", "description": "浓郁果香浆果茶" },
+          "hi": { "name": "बेरी चाय", "description": "सुगंधित फल और बेरी चाय।" },
+          "tr": { "name": "Meyveli Çay", "description": "Aromatik meyve ve orman meyveli çay." },
+          "kk": { "name": "Жидек шайы", "description": "Хош иісті жеміс-жидек шайы." },
+          "ar": { "name": "شاي التوت والفواكه", "description": "شاي عطري بالفواكه والتوت." }
+        }
+      },
+      {
+        "price": 1200,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Ромашковый чай", "description": "Успокаивающий травяной чай с ромашкой." },
+          "en": { "name": "Chamomile tea", "description": "Soothing herbal chamomile tea." },
+          "zh": { "name": "洋甘菊茶", "description": "舒缓草本洋甘菊茶" },
+          "hi": { "name": "कैमोमाइल चाय", "description": "सुखदायक हर्बल कैमोमाइल चाय।" },
+          "tr": { "name": "Papatya Çayı", "description": "Sakinleştirici bitkisel papatya çayı." },
+          "kk": { "name": "Түймедақ шайы", "description": "Түймедақ қосылған тыныштандыратын шөп шайы." },
+          "ar": { "name": "شاي البابونج", "description": "شاي أعشاب مهدئ بالبابونج." }
+        }
+      }
+    ]
+  },
+  {
+    "category": {
+      "ru": "Напитки",
+      "en": "Soft Drinks & Beverages",
+      "zh": "软饮与饮品",
+      "hi": "पेय पदार्थ",
+      "tr": "İçecekler",
+      "kk": "Сусындар",
+      "ar": "المشروبات"
+    },
+    "dishes": [
+      {
+        "price": 800,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Вода (50 cl)", "description": "Питьевая негазированная вода." },
+          "en": { "name": "Water (50 cl)", "description": "Still drinking water." },
+          "zh": { "name": "矿泉水 (50 cl)", "description": "纯净饮用水" },
+          "hi": { "name": "पानी (50 cl)", "description": "सादा पीने का पानी।" },
+          "tr": { "name": "Su (50 cl)", "description": "Durgun içme suyu." },
+          "kk": { "name": "Су (50 cl)", "description": "Газдалмаған ауыз су." },
+          "ar": { "name": "ماء (50 سل)", "description": "ماء شرب غير غازي." }
+        }
+      },
+      {
+        "price": 1000,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Газированная вода (50 cl)", "description": "Питьевая газированная вода." },
+          "en": { "name": "Sparkling water (50 cl)", "description": "Sparkling drinking water." },
+          "zh": { "name": "气泡水 (50 cl)", "description": "含气饮用水" },
+          "hi": { "name": "स्पार्कलिंग पानी (50 cl)", "description": "कार्बोनेटेड पीने का पानी।" },
+          "tr": { "name": "Maden Suyu / Soda (50 cl)", "description": "Kısırlı/Karbondioksitli içme suyu." },
+          "kk": { "name": "Газдалған су (50 cl)", "description": "Газдалған ауыз су." },
+          "ar": { "name": "ماء غازي (50 سل)", "description": "ماء شرب غازي." }
+        }
+      },
+      {
+        "price": 1700,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Боржоми (33 cl)", "description": "Минеральная лечебно-столовая вода." },
+          "en": { "name": "Borjomi (33 cl)", "description": "Mineral sparkling water." },
+          "zh": { "name": "波尔若米矿泉水 (33 cl)", "description": "天然矿泉水" },
+          "hi": { "name": "बोर्जोमी (33 cl)", "description": "खनिज युक्त स्पार्कलिंग पानी।" },
+          "tr": { "name": "Borjomi (33 cl)", "description": "Doğal maden suyu." },
+          "kk": { "name": "Боржоми (33 cl)", "description": "Емдік-ас минералды суы." },
+          "ar": { "name": "بورجومي (33 سل)", "description": "مياه معدنية غازية." }
+        }
+      },
+      {
+        "price": 1000,
+        "image_url": null,
+        "allergens": ["milk"],
+        "translations": {
+          "ru": { "name": "Турецкий айран (25 cl)", "description": "Традиционный кисломолочный напиток." },
+          "en": { "name": "Ayran Turkish (25 cl)", "description": "Traditional cold yogurt drink." },
+          "zh": { "name": "土耳其艾兰酸奶饮品 (25 cl)", "description": "传统酸奶咸味饮品" },
+          "hi": { "name": "तुर्की आयran (25 cl)", "description": "पारंपरिक दही पेय।" },
+          "tr": { "name": "Türk Ayranı (25 cl)", "description": "Geleneksel yoğurt bazlı içecek." },
+          "kk": { "name": "Түрік айраны (25 cl)", "description": "Дәстүрлі қышқыл сүт сусыны." },
+          "ar": { "name": "عيران تركي (25 سل)", "description": "مشروب تقليدي من الحليب المخمّر (زبادي بارد)." }
+        }
+      },
+      {
+        "price": 1000,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Coca-Cola / Zero / Fanta / Sprite (50 cl)", "description": "Популярные газированные напитки." },
+          "en": { "name": "Coca-Cola / Zero / Fanta / Sprite (50 cl)", "description": "Popular carbonated soft drinks." },
+          "zh": { "name": "可口可乐 / 零度 / 芬达 / 雪碧 (50 cl)", "description": "流行碳酸饮料" },
+          "hi": { "name": "कोका-कोला / जीरो / फैंटा / स्पप्राइट (50 cl)", "description": "लोकप्रिय कार्बोनेटेड पेय।" },
+          "tr": { "name": "Coca-Cola / Zero / Fanta / Sprite (50 cl)", "description": "Popüler gazlı içecekler." },
+          "kk": { "name": "Coca-Cola / Zero / Fanta / Sprite (50 cl)", "description": "Танымал газдалған сусындар." },
+          "ar": { "name": "كوكا كولا / زيرو / فانتا / سبرايت (50 سل)", "description": "مشروبات غازية شائعة." }
+        }
+      },
+      {
+        "price": 1300,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Piko Pulpy (Orange / Grape, 50 cl)", "description": "Фруктовый напиток с мякотью." },
+          "en": { "name": "Piko Pulpy (Orange / Grape, 50 cl)", "description": "Fruit drink with pulp." },
+          "zh": { "name": "果粒橙 / 葡萄汁 (50 cl)", "description": "带果肉果汁饮料" },
+          "hi": { "name": "पिको पल्पी (संतरा / अंगूर, 50 cl)", "description": "पल्प वाला फल पेय।" },
+          "tr": { "name": "Piko Pulpy (Portakal / Üzüm, 50 cl)", "description": "Meyve parçacıklı içecek." },
+          "kk": { "name": "Piko Pulpy (Апельсин / Жүзім, 50 cl)", "description": "Жеміс жұмсағы бар сусын." },
+          "ar": { "name": "بيكو بولبي (برتقال / عنب، 50 سل)", "description": "مشروب فواكه مع قطع اللب." }
+        }
+      },
+      {
+        "price": 1500,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Сок Rich (Яблоко / Вишня / Апельсин, 20 cl)", "description": "Натуральный сок." },
+          "en": { "name": "Rich Juice (Apple / Cherry / Orange, 20 cl)", "description": "Natural fruit juice." },
+          "zh": { "name": "Rich果汁 (苹果 / 樱桃 / 橙子, 20 cl)", "description": "优质果汁" },
+          "hi": { "name": "रिच जूस (सेब / चेरी / संतरा, 20 cl)", "description": "प्राकृतिक फल का रस।" },
+          "tr": { "name": "Rich Meyve Suyu (Elma / Vişne / Portakal, 20 cl)", "description": "Doğal meyve suyu." },
+          "kk": { "name": "Rich шырыны (Алма / Шие / Апельсин, 20 cl)", "description": "Табиғи шырын." },
+          "ar": { "name": "عصير ريتش (تفاح / كرز / برتقال، 20 سل)", "description": "عصير فواكه طبيعي." }
+        }
+      },
+      {
+        "price": 1300,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Холодный чай Fuse Tea (Лимон / Персик / Манго-Ромашка, 50 cl)", "description": "Освежающий холодный чай." },
+          "en": { "name": "Fuse Tea (Lemon / Peach / Mango Chamomile, 50 cl)", "description": "Refreshing iced tea." },
+          "zh": { "name": "冰红茶 Fuse Tea (柠檬 / 桃子 / 芒果洋甘菊, 50 cl)", "description": "清爽冰茶" },
+          "hi": { "name": "फ्यूज टी (नींबू / आड़ू / आम कैमोमाइल, 50 cl)", "description": "ताज़ा आइस टी।" },
+          "tr": { "name": "Fuse Tea (Limon / Şeftali / Mango Papatya, 50 cl)", "description": "Ferahlatıcı soğuk çay." },
+          "kk": { "name": "Fuse Tea салқын шайы (Лимон / Шабдалы / Манго-Түймедақ, 50 cl)", "description": "Сергітетін салқын шай." },
+          "ar": { "name": "شاي مثلج فيوز تي (ليمون / خوخ / مانجو وبابونج، 50 سل)", "description": "شاي مثلج منعش." }
+        }
+      },
+      {
+        "price": 2000,
+        "image_url": null,
+        "allergens": [],
+        "translations": {
+          "ru": { "name": "Энергетик Red Bull (Classic / Sugar Free / Yellow Edition, 25 cl)", "description": "Энергетический напиток." },
+          "en": { "name": "Red Bull Energy Drink (Classic / Sugar Free / Yellow Edition, 25 cl)", "description": "Energy drink." },
+          "zh": { "name": "红牛能量饮料 (经典 / 无糖 / 黄色版, 25 cl)", "description": "能量饮料" },
+          "hi": { "name": "रेड बुल एनर्जी ड्रिंक (क्लासिक / शुगर फ्री / येलो एडिशन, 25 cl)", "description": "एनर्जी ड्रिंक।" },
+          "tr": { "name": "Red Bull Enerji İçeceği (Classic / Sugar Free / Yellow Edition, 25 cl)", "description": "Enerji içeceği." },
+          "kk": { "name": "Red Bull энергетикалық сусыны (Classic / Sugar Free / Yellow Edition, 25 cl)", "description": "Энергетикалық сусын." },
+          "ar": { "name": "مشروب الطاقة ريد بول (كلاسيك / بدون سكر / الإصدار الأصفر، 25 سل)", "description": "مشروب طاقة." }
+        }
+      },
+      {
+        "price": 2300,
+        "image_url": null,
+        "allergens": ["gluten"],
+        "translations": {
+          "ru": { "name": "Пиво Efes Pilsener (50 cl)", "description": "Светлое пиво." },
+          "en": { "name": "Efes Pilsener Beer (50 cl)", "description": "Light beer." },
+          "zh": { "name": "艾菲斯啤酒 (50 cl)", "description": "淡色啤酒" },
+          "hi": { "name": "एफेस पिल्सener बीयर (50 cl)", "description": "लाइट बीयर।" },
+          "tr": { "name": "Efes Pilsener Bira (50 cl)", "description": "Açık renkli bira." },
+          "kk": { "name": "Efes Pilsener сырасы (50 cl)", "description": "Ашық сыра." },
+          "ar": { "name": "بيرة إيفس بيلسنر (50 سل)", "description": "بيرة فاتحة." }
+        }
+      },
+      {
+        "price": 2600,
+        "image_url": null,
+        "allergens": ["gluten"],
+        "translations": {
+          "ru": { "name": "Пиво Corona Extra (35 cl)", "description": "Мексиканское светлое пиво." },
+          "en": { "name": "Corona Extra Beer (35 cl)", "description": "Mexican pale lager." },
+          "zh": { "name": "科罗娜啤酒 (35 cl)", "description": "墨西哥风味淡色啤酒" },
+          "hi": { "name": "कोरोना एक्स्ट्रा बीयर (35 cl)", "description": "मेक्सिकन पेल लागर।" },
+          "tr": { "name": "Corona Extra Bira (35 cl)", "description": "Meksika menşei açık renkli bira." },
+          "kk": { "name": "Corona Extra сырасы (35 cl)", "description": "Мексикалық ашық сыра." },
+          "ar": { "name": "بيرة كورونا إكسترا (35 سل)", "description": "بيرة مكسيكية فاتحة." }
+        }
+      },
+      {
+        "price": 2600,
+        "image_url": null,
+        "allergens": ["gluten"],
+        "translations": {
+          "ru": { "name": "Пиво Miller Genuine Draft 4,7% (330 ml)", "description": "Фильтрованное светлое пиво." },
+          "en": { "name": "Miller Genuine Draft 4.7% (330 ml)", "description": "Filtered pale lager." },
+          "zh": { "name": "美乐纯生啤酒 4.7% (330 ml)", "description": "过滤淡色生啤" },
+          "hi": { "name": "मिलर जेन्युइन ड्राफ्ट 4.7% (330 ml)", "description": "फिल्टर्ड पेल लागर।" },
+          "tr": { "name": "Miller Genuine Draft 4,7% (330 ml)", "description": "Filtrelenmiş açık bira." },
+          "kk": { "name": "Miller Genuine Draft сырасы 4,7% (330 ml)", "description": "Сүзгіленген ашық сыра." },
+          "ar": { "name": "بيرة ميلر جينيوين درافت 4.7% (330 مل)", "description": "بيرة فاتحة مُرشَّحة." }
+        }
+      },
+      {
+        "price": 5000,
+        "image_url": null,
+        "allergens": ["dioxide and sulphites"],
+        "translations": {
+          "ru": { "name": "Вино Barramundi Chardonnay (18.75 cl)", "description": "Белое сухое вино." },
+          "en": { "name": "Barramundi Chardonnay (18.75 cl)", "description": "White dry wine." },
+          "zh": { "name": "巴拉芒迪霞多丽白葡萄酒 (18.75 cl)", "description": "干白葡萄酒" },
+          "hi": { "name": "बरामूंडी शार्डोने (18.75 cl)", "description": "सफेद ड्राई वाइन।" },
+          "tr": { "name": "Barramundi Chardonnay Şarap (18.75 cl)", "description": "Beyaz sek şarap." },
+          "kk": { "name": "Barramundi Chardonnay шарабы (18.75 cl)", "description": "Ақ құрғақ шарап." },
+          "ar": { "name": "نبيذ باراموندي شاردونيه (18.75 سل)", "description": "نبيذ أبيض جاف." }
+        }
+      },
+      {
+        "price": 5000,
+        "image_url": null,
+        "allergens": ["dioxide and sulphites"],
+        "translations": {
+          "ru": { "name": "Вино Barramundi Shiraz (18.75 cl)", "description": "Красное сухое вино." },
+          "en": { "name": "Barramundi Shiraz (18.75 cl)", "description": "Red dry wine." },
+          "zh": { "name": "巴拉芒迪西拉红葡萄酒 (18.75 cl)", "description": "干红葡萄酒" },
+          "hi": { "name": "बरामूंडी शिराज (18.75 cl)", "description": "लाल ड्राई वाइन।" },
+          "tr": { "name": "Barramundi Shiraz Şarap (18.75 cl)", "description": "Kırmızı sek şarap." },
+          "kk": { "name": "Barramundi Shiraz шарабы (18.75 cl)", "description": "Қызыл құрғақ шарап." },
+          "ar": { "name": "نبيذ باراموندي شيراز (18.75 سل)", "description": "نبيذ أحمر جاف." }
+        }
+      }
+    ]
+  }
+]
