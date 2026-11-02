@@ -17,7 +17,21 @@ const MENU_QUERY = `
           'description', COALESCE(dt.description, dtd.description),
           'price', d.price::float8,
           'allergens', d.allergens,
-          'image_url', d.image_url
+          'image_url', d.image_url,
+          'addons', COALESCE((
+            SELECT json_agg(
+              json_build_object(
+                'id', a.id,
+                'name', COALESCE(atr.name, atd.name),
+                'price', a.price::float8
+              ) ORDER BY da.sort_order, a.id
+            )
+            FROM dish_addons da
+            JOIN addons a ON a.id = da.addon_id AND a.is_available = true
+            LEFT JOIN addon_translations atr ON atr.addon_id = a.id AND atr.lang = $1
+            LEFT JOIN addon_translations atd ON atd.addon_id = a.id AND atd.lang = $2
+            WHERE da.dish_id = d.id
+          ), '[]'::json)
         ) ORDER BY d.sort_order, d.id
       ) FILTER (WHERE d.id IS NOT NULL),
       '[]'
