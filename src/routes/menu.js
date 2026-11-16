@@ -14,6 +14,7 @@ const MENU_QUERY = `
         json_build_object(
           'id', d.id,
           'name', COALESCE(dt.name, dtd.name),
+          'name_ru', dtd.name,
           'description', COALESCE(dt.description, dtd.description),
           'price', d.price::float8,
           'allergens', d.allergens,
@@ -23,6 +24,7 @@ const MENU_QUERY = `
               json_build_object(
                 'id', a.id,
                 'name', COALESCE(atr.name, atd.name),
+                'name_ru', atd.name,
                 'price', a.price::float8
               ) ORDER BY da.sort_order, a.id
             )
